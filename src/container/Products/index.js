@@ -31,6 +31,7 @@ class Products extends Component{
                 {allProducts.products.length && allProducts.products.map((product,index) => {
                     return <Product key={ index } 
                                     background={ product.ProductPicUrl }
+                                    price={ product.Price }
                                     category={ product.Category }
                                     name={ product.Name }
                                     description={ product.Description }

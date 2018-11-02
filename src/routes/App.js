@@ -9,7 +9,7 @@ import Home from './Home';
 import Miss404 from './Miss404';
 
 const GlobalStyles = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
     html { 
         font-size: 62.5%; 
@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         padding: 0;
         margin: 0;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 `;
 
