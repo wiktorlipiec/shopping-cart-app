@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import Header from '../../container/Header';
+import Products from '../../container/Products/'
+
+import Aux from '../../hoc/Aux/Aux';
 
 class Home extends Component {
     render(){
         return(
-            <Header />
+            <Aux>
+                <Header />
+                <Products />
+            </Aux>
         );
     }
 }

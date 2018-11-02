@@ -6,7 +6,7 @@ const INITIAL_STATE = {
 
 function CartReducer(state = INITIAL_STATE, action) {
     switch (action.type) {
-    case CartActions.GET_PRODUCTS:
+    case CartActions.GET_CART:
         return { ...state };
     default:
         return state;
